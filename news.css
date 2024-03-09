@@ -1,0 +1,110 @@
+
+
+/* Navigation styles */
+nav {
+    background-color: #3b5998; /* Facebook blue */
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Container styles */
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* News article styles */
+.news-article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.news-article img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.news-article h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-article p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+    
+        /* Add CSS styles for layout consistency */
+        .news-article {
+            margin-bottom: 20px;
+        }
+        
+        .small-image {
+            width: 400px; /* Set fixed width for images */
+            height: auto; /* Automatically adjust height to maintain aspect ratio */
+        }
+        
+        video {
+            width: 400px; /* Set fixed width for videos */
+            height: auto; /* Automatically adjust height to maintain aspect ratio */
+        }
+    

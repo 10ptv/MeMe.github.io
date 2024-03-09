@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news-article {
+    width: 300px; /* Adjust width as needed */
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.news-article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.news-article h2 {
+    margin-top: 10px;
+}
+
+.news-article p {
+    margin-top: 10px;
+    text-align: left;
+}
+    
+        /* Add CSS styles for layout consistency */
+        .news-article {
+            margin-bottom: 20px;
+        }
+        
+        .small-image {
+            width: 100%; /* Set fixed width for images */
+            height: auto; /* Automatically adjust height to maintain aspect ratio */
+        }
+        
+        video {
+            width: 100%; /* Set fixed width for videos */
+            height: auto; /* Automatically adjust height to maintain aspect ratio */
+        }
+    
